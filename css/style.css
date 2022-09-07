@@ -8,6 +8,7 @@
 /* COMMON */
 .price{
     color: red;
+    font-weight: 600;
 }
 
 span{
@@ -29,8 +30,9 @@ span{
 }
 
 .banner{
-    padding: 0.5em;
+    padding: 0.2em 0.4em;
     color: white;
+    font-weight: 600;
 }
 
 .banners-img div{
@@ -47,7 +49,7 @@ span{
 
 img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 /* HEADER */
 header{
@@ -78,9 +80,8 @@ header{
 .col{
     width: calc((100% / 3) - 20px);
     /* DEBUG */
-    background-color: grey;
-    height: 650px;
-    border: 2px solid red;
+    background-color: white;
+    /* height: 650px; */
     position: relative;
 
 }
@@ -88,7 +89,7 @@ header{
 .banners-img{
     position: absolute;
     left: 0;
-    bottom: 2em;
+    bottom: 6em;
 }
 
 /* FOOTER */
@@ -103,21 +104,20 @@ footer{
 
 
 
-/* DEBUGGING */
-.square{
+/* CARDS */
+.card{
     width: 100%;
-    height: 100%;
 }
 
-.violet{
-    background-color: violet;
-}
 
-.blue{
-    background-color: blue;
+.one{
     position: absolute;
 }
 
-.col:hover .blue{
+.col:hover .one{
     display: none;
+}
+
+.heart:hover{
+    color: red;
 }
