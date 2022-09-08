@@ -78,7 +78,7 @@ header{
 
 }
 
-ul li {
+ header ul li {
     display: inline-block;
     margin: 0 .2em;
 }
@@ -134,10 +134,37 @@ footer{
     background-color: #1a1a1a;
 
     /* DEBUG */
-    height: 100px;
+    height: 80px;
     width: 100%;
 }
 
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h3{
+    color: white;
+}
+
+.footer-info{
+    padding: 1em;
+}
+
+footer ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: .5em;
+    margin-right: .5em;
+    font-size: .8em;
+}
+
+h4{
+    color: white;
+}
 
 
 
